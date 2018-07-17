@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.9/css/uikit.min.css" />
+	<link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+<body>
+
+<div class="wraper">
+	<div class="uk-child-width-1-5@m" uk-grid>
+	    <div>
+	        <div id="1" class="uk-card uk-card-default" onclick="handleClick(1)">
+	            <div class="uk-card-media-top">
+	            	<div class="image-wraper">
+	                	<img src="http://s-gas.com.ua/wp-content/themes/wootique/images/main-news.png" alt="">
+	            	</div>
+	            </div>
+	            <div class="uk-card-body">
+	                <h3 class="uk-card-title">Новости</h3>
+	            </div>
+	        </div>
+	    </div>
+
+	    <div>
+	        <div id="2" class="uk-card uk-card-default" onclick="handleClick(2)">
+	            <div class="uk-card-media-top">
+	            	<div class="image-wraper">
+	                	<img src="http://s-gas.com.ua/wp-content/themes/wootique/images/main-sto.png" alt="">
+	            	</div>
+	            </div>
+	            <div class="uk-card-body">
+	                <h3 class="uk-card-title">СТО</h3>
+	            </div>
+	        </div>
+	    </div>
+
+	    <div>
+	        <div id="3" class="uk-card uk-card-default" onclick="handleClick(3)">
+	            <div class="uk-card-media-top">
+	            	<div class="image-wraper">
+	                	<img src="http://s-gas.com.ua/wp-content/themes/wootique/images/main-shop.png" alt="">
+	            	</div>
+	            </div>
+	            <div class="uk-card-body">
+	                <h3 class="uk-card-title">Магазин</h3>
+	            </div>
+	        </div>
+	    </div>
+
+	    <div>
+	        <div id="4" class="uk-card uk-card-default" onclick="handleClick(4)">
+	            <div class="uk-card-media-top">
+	            	<div class="image-wraper">
+	                	<img src="http://s-gas.com.ua/wp-content/themes/wootique/images/main-ustanovschik.png" alt="">
+	            	</div>
+	            </div>
+	            <div class="uk-card-body">
+	                <h3 class="uk-card-title">Установщикам</h3>
+	            </div>
+	        </div>
+	    </div>
+
+	    <div>
+	        <div id="5" class="uk-card uk-card-default" onclick="handleClick(5)">
+	            <div class="uk-card-media-top">
+	            	<div class="image-wraper">
+	                	<img src="http://s-gas.com.ua/wp-content/themes/wootique/images/main-contacts.png" alt="">
+	            	</div>
+	            </div>
+	            <div class="uk-card-body">
+	                <h3 class="uk-card-title">Контакты</h3>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</div>
+
+<div class="table-wraper">
+	<table class="uk-table uk-table-middle uk-table-divider">
+	    <thead>
+	        <tr>
+	            <th>Город</th>
+	            <th>Адресс</th>
+	            <th>Телефон</th>
+	            <th>Перейти на сайт</th>
+	        </tr>
+	    </thead>
+	    <tbody id="table-body">
+	    </tbody>
+	</table>
+</div>
+
+
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.9/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.9/js/uikit-icons.min.js"></script>
+<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

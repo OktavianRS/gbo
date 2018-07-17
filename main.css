@@ -1,0 +1,41 @@
+.wraper {
+	display: block;
+	margin: 0 auto 20px;
+	max-width: 80%;
+}
+
+.table-wraper {
+	width: 80%;
+	margin: 40px auto;
+	display: block;
+}
+
+.uk-card {
+	cursor: pointer;
+}
+
+.image-wraper {
+	height: 120px;
+	width: 100%;
+	padding: 10px 0;
+}
+
+.uk-card-media-top img {
+	display: block;
+	margin: 0 auto;
+}
+
+.uk-card-body {
+	padding: 10px 0 20px;
+	text-align: center;
+}
+
+.uk-card {
+	transition: all .2s;
+	border-bottom: 1px solid transparent;
+}
+
+.active {
+	border-bottom: 1px solid #1e87f0;
+}
+
